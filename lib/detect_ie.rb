@@ -3,6 +3,7 @@ require "detect_ie/version"
 
 # include in ApplicationController
 module DetectIE
+  protected
   # Return version as integer for all IE versions less than 10, returns 10 otherwise since we
   # generally treat 10 the same as Chrome or Firefox.
   def ie_version
