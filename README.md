@@ -1,6 +1,6 @@
 # DetectIE
 
-Extremely simple module to add detection of old IE versions to rails controllers and helpers.
+Simple module to add detection of old IE versions to rails controllers and helpers.
 
 ## Installation
 
