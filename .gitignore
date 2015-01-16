@@ -17,3 +17,4 @@ mkmf.log
 .DS_Store
 ._*
 Thumbs.db
+.rspec
