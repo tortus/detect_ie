@@ -22,9 +22,6 @@ describe DetectIE do
     controller
   end
 
-  def ie_8_user_agent_string
-  end
-
   context "when included" do
     it "calls helper_method for all DetectIE methods" do
       controller_cls = Class.new
