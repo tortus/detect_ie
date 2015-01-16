@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'detect/ie/version'
+require 'detect_ie/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "detect_ie"
-  spec.version       = Detect::Ie::VERSION
+  spec.version       = DetectIE::VERSION
   spec.authors       = ["William Makley"]
   spec.email         = ["programming@tortus.com"]
   spec.summary       = %q{Simple IE 8 detection for Rails.}
