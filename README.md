@@ -7,7 +7,7 @@ Simple module to add detection of old IE versions to rails controllers and helpe
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'detect_ie', :github => 'tortus/detect_ie'
+gem 'detect_ie', :github => 'tortus/detect_ie', :branch => '1-0-stable'
 ```
 
 And then execute:
