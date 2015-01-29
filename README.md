@@ -31,9 +31,10 @@ class ApplicationController
 end
 ```
 
-It will detect any unrecognized IE as version 10, both because Microsoft changed the
+## Internet Explorer 11+
+DetectIE will detect any unrecognized IE as version 10, both because Microsoft changed the
 user agent string after 9, and because 10 actually works enough like "real" browsers that
-specific tweaks are not as necessary.
+specific tweaks are not as necessary. (We are choosing to take MS at their word on this.)
 
 ## The following methods are available in both controllers and views:
 
