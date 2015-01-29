@@ -37,13 +37,15 @@ specific tweaks are not as necessary.
 
 ## The following methods are available in both controllers and views:
 
-### ie_version
-Get the detected IE version as an Integer. Returns 10 for IE 10 and higher.
+```ruby
+ie_version
+# Get the detected IE version as an Integer. Returns 10 for IE 10 and higher.
 
-### force_ie_version!(version)
-Call in a before_filter to make the app pretend all users are using a certain
-version of IE. Useful for debugging.
+force_ie_version!(version)
+# Call in a before_filter to make the app pretend all users are using a certain
+# version of IE. Useful for debugging.
 
-### Shortcuts for detecting and debugging IE 8 (very common scenario)
-* ie_8_or_less?
-* force_ie_8!
+# Shortcuts for detecting and debugging IE 8 (very common scenario)
+ie_8_or_less?
+force_ie_8!
+```
