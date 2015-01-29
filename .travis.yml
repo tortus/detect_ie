@@ -1,8 +1,9 @@
+language: ruby
+before_install:
+  - gem install bundler -v 1.7.7
 bundler_args: --without guard
 script:
-  - "gem install bundler"
   - "bundle exec rspec spec"
-language: ruby
 rvm:
   - 2.1.0
   - 2.0.0
