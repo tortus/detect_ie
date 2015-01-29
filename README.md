@@ -22,7 +22,7 @@ class ApplicationController
   include DetectIE
 
   def do_something
-    if ie_8_or_less?
+    if ie_version < 9
       # do something special for old versions of IE
     else
       # normal code path
@@ -30,6 +30,10 @@ class ApplicationController
   end
 end
 ```
+
+It will detect any unrecognized IE as version 10, both because Microsoft changed the
+user agent string after 9, and because 10 actually works enough like "real" browsers that
+specific tweaks are not as necessary.
 
 ## The following methods are available in both controllers and views:
 
