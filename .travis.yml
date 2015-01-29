@@ -1,5 +1,6 @@
 bundler_args: --without guard
 script:
+  - "gem install bundler"
   - "bundle exec rspec spec"
 language: ruby
 rvm:
