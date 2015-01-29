@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DetectIE::VERSION
   spec.authors       = ["Tortus Technologies"]
   spec.email         = ["support@tortus.com"]
-  spec.summary       = %q{Simple IE 8 detection for Rails.}
-  spec.description   = %q{Simple module to add detection of old IE versions to rails controllers and helpers.}
+  spec.summary       = %q{Simple IE 7 thru 9 detection for Rails.}
+  spec.description   = %q{Simple module to add detection of old IE versions (< 10) to rails controllers and helpers.}
   spec.homepage      = "https://github.com/tortus/detect_ie"
   spec.license       = "MIT"
 
